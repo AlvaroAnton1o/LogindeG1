@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="LogindeG1.Menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+
+    <title>Menu Principal</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Recursos/CSS/styles2.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="formulario_Master" runat="server">
+        <div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="Deafault.aspx">Inicio</a></li>
+                    <li><a href="Categorias.aspx">Categorias</a></li>
+                    <li><a href="Acerca de.aspx">Acerca de</a></li>
+                    <li><a href="Ayuda.aspx">Ayuda</a></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="footer">
+                <span>contacto@gmail.com</span>
+                <span> Whatsapp +503 5912 2103</span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
