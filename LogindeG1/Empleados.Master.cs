@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace LogindeG1
 {
-    public partial class Acerca_de : System.Web.UI.Page
+    public partial class Empleados : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }

@@ -70,11 +70,13 @@
     <Content Include="Acerca de.aspx" />
     <Content Include="Ayuda.aspx" />
     <Content Include="Categorias.aspx" />
+    <Content Include="Consultas.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Login_G1.aspx" />
     <Content Include="Recursos\CSS\Estilos.css" />
     <Content Include="Recursos\CSS\styles2.css" />
+    <Content Include="Recursos\CSS\Styles3.css" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -99,6 +101,13 @@
     </Compile>
     <Compile Include="Categorias.aspx.designer.cs">
       <DependentUpon>Categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -17,7 +17,7 @@
             <form id="formulario_login" runat="server">
                 <div class="form-control">
                     <div class="row">
-                        <asp:Label class="h2" ID="lblBienvenida" runat="server" Text="Bienvenido/a al Sistema" ForeColor="#6666FF"></asp:Label>
+                        <asp:Label class="h2" ID="lblBienvenida" runat="server" Text="Iniciar Sesion" ForeColor="#6666FF"></asp:Label>
                     </div>
                     <br />
                     <div>
@@ -39,7 +39,7 @@
                     <br />
                     <div>
                         <asp:Label ID="Label1" runat="server" Text="No te has registrado?"></asp:Label>
-                        <asp:LinkButton ID="LinkButton1" runat="server">Crear cuenta</asp:LinkButton>
+                        <asp:LinkButton ID="lnkCrearCuenta" runat="server" OnClick="lnkCrearCuenta_Click">Crear cuenta</asp:LinkButton>
                     </div>
                 </div>
             </form>        

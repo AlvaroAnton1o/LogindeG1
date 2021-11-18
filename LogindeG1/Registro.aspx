@@ -8,7 +8,6 @@
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   
     <title>Registrarse</title>
 </head>
 <body class="form-control bg-ligth">
@@ -65,16 +64,17 @@
                                             <asp:Label runat="server" ID="lblContraseña" Text="Contraseña:"></asp:Label>
                                         </asp:TableCell>
                                        <asp:TableCell>
-                                            <asp:TextBox runat="server" ID="txtContraseña" placeholder="Password"></asp:TextBox>
+                                            <asp:TextBox runat="server" ID="txtContraseña" TextMode="Password" placeholder="Password"></asp:TextBox>
                                        </asp:TableCell>
                                         <asp:TableCell>
                                             <asp:Label runat="server" ID="lblConfirmarContraseña" Text="Confirmar Contraseña:"></asp:Label>
                                         </asp:TableCell>
                                        <asp:TableCell>
-                                            <asp:TextBox runat="server" ID="txtConfirmarContraseña" placeholder="Confirm Password"></asp:TextBox>
+                                            <asp:TextBox runat="server" ID="txtConfirmarContraseña" TextMode="Password" placeholder="Confirm Password"></asp:TextBox>
                                        </asp:TableCell>
                                </asp:TableRow>
                                <asp:TableRow>
+
                                    <asp:TableCell>
                                        <asp:Label runat="server" CssClass="alert-danger" ID="lblError"></asp:Label>
                                        <asp:Label runat="server" CssClass="alert-danger" ID="lblErrorContraseña"></asp:Label>
@@ -85,14 +85,10 @@
                        </fieldset>
                        <br />
                        <div>
-                           <asp:Button ID="BtnRegistrar" Text="Registrar" CssClass="btn btn-primary" runat="server" />
+                           <asp:Button ID="BtnRegistrar" Text="Registrar" CssClass="btn btn-primary" runat="server" OnClick="BtnRegistrar_Click" />
                        </div>
                    </div>
                </form>
-          </div>
-          <div class="col"></div>
-          <div>
-              <asp:DataGrid runat="server" ID="gvUsuarios" CssClass="table"></asp:DataGrid>
           </div>
       </div>
   </div>
