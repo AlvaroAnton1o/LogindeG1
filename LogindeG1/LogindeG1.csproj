@@ -73,6 +73,7 @@
     <Content Include="Consultas.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Index.aspx" />
+    <Content Include="Inicio.aspx" />
     <Content Include="Login_G1.aspx" />
     <Content Include="Recursos\CSS\Estilos.css" />
     <Content Include="Recursos\CSS\styles2.css" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login_G1.aspx.cs">
       <DependentUpon>Login_G1.aspx</DependentUpon>
