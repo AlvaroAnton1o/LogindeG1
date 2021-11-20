@@ -1,0 +1,14 @@
+﻿body {
+font: "Trebuchet MS", verdana, sans-serif;
+background-color: #AFEEEE;
+color: #696969;
+}
+h1 { 
+    font: oblique bold 120% cursive;
+    color: #000000;
+}
+h2 {
+    border-bottom: 3px solid #cc9900;
+    font: Georgia,serif;
+    color: #0000FF;
+}

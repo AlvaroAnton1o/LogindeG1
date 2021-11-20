@@ -69,15 +69,21 @@
   <ItemGroup>
     <Content Include="Acerca de.aspx" />
     <Content Include="Ayuda.aspx" />
-    <Content Include="Categorias.aspx" />
+    <Content Include="Bitacora.aspx" />
+    <Content Include="Calculadora.aspx" />
     <Content Include="Consultas.aspx" />
-    <Content Include="Default.aspx" />
-    <Content Include="Index.aspx" />
+    <Content Include="ConversorM.aspx" />
+    <Content Include="ConversorP.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Login_G1.aspx" />
     <Content Include="Recursos\CSS\Estilos.css" />
+    <Content Include="Recursos\CSS\Style.css" />
     <Content Include="Recursos\CSS\styles2.css" />
     <Content Include="Recursos\CSS\Styles3.css" />
+    <Content Include="Recursos\Estilos\Style.css" />
+    <Content Include="Recursos\imagenes\25d6158191522484e7773cdcd389e350.jpg" />
+    <Content Include="Recursos\imagenes\BIENVENIDOS.png" />
+    <Content Include="Recursos\imagenes\pngtree-hand-drawn-math-education-calculator-ruler-background-image_340650.jpg" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,12 +102,19 @@
     <Compile Include="Ayuda.aspx.designer.cs">
       <DependentUpon>Ayuda.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Categorias.aspx.cs">
-      <DependentUpon>Categorias.aspx</DependentUpon>
+    <Compile Include="Bitacora.aspx.cs">
+      <DependentUpon>Bitacora.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Categorias.aspx.designer.cs">
-      <DependentUpon>Categorias.aspx</DependentUpon>
+    <Compile Include="Bitacora.aspx.designer.cs">
+      <DependentUpon>Bitacora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculadora.aspx.cs">
+      <DependentUpon>Calculadora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculadora.aspx.designer.cs">
+      <DependentUpon>Calculadora.aspx</DependentUpon>
     </Compile>
     <Compile Include="Consultas.aspx.cs">
       <DependentUpon>Consultas.aspx</DependentUpon>
@@ -110,19 +123,19 @@
     <Compile Include="Consultas.aspx.designer.cs">
       <DependentUpon>Consultas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="ConversorM.aspx.cs">
+      <DependentUpon>ConversorM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="ConversorM.aspx.designer.cs">
+      <DependentUpon>ConversorM.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="ConversorP.aspx.cs">
+      <DependentUpon>ConversorP.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="ConversorP.aspx.designer.cs">
+      <DependentUpon>ConversorP.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>

@@ -32,7 +32,7 @@
                     <div class="row">
                         <asp:Label runat="server" CssClass="alert-danger" ID="lblError"></asp:Label>
                     </div>
-                    <br />
+                    
                     <div class="row">
                         <asp:Button ID="BtnIngresar" CssClass="btn btn-primary btn-dark" class="h1" runat="server" Text="Ingresar" OnClick="BtnIngresar_Click" BackColor="#6699FF" />
                     </div>

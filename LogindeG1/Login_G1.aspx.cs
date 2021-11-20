@@ -30,7 +30,7 @@ namespace LogindeG1
             {
                 //Agregamos una sesion de usuario
                 Session["usuariologueado"] = tbUsuario.Text;
-                Response.Redirect("https://localhost:44368/");
+                Response.Redirect("Inicio.aspx");
             }
             else
             {

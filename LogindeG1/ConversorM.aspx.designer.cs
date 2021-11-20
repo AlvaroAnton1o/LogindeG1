@@ -11,7 +11,7 @@ namespace LogindeG1
 {
 
 
-    public partial class Categorias
+    public partial class ConversorM
     {
     }
 }

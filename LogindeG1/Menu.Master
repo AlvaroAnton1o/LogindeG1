@@ -10,27 +10,37 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
+    <style type="text/css">
+        .auto-style1 {
+            width: 923px;
+            text-align: center;
+            color: #034c81;
+            font-size: medium;
+            height: 501px;
+            margin-top: 86px;
+        }
+    </style>
+
 </head>
 <body>
     <form id="formulario_Master" runat="server">
         <div>
             <div id="navbar">
-                <ul style="width: 1283px">
+                <ul class="nav navbar-nav navbar-center">
                     <li><a href="Inicio.aspx">Inicio</a></li>
-                    <li><a href="Categorias.aspx">Categorias</a></li>
+                    <li><a href="Bitacora.aspx">Bitacora</a></li>
+                    <li><a href="Calculadora.aspx">Calculadora</a></li>
+                    <li><a href="ConversorP.aspx">Conversor de peso</a></li>
+                    <li><a href="ConversorM.aspx">Conversor de Monedas</a></li>
+                    <li><a href="Consultas.aspx">Consultas</a></li>
                     <li><a href="Acerca de.aspx">Acerca de</a></li>
                     <li><a href="Ayuda.aspx">Ayuda</a></li>
-                    <li><a href="Consultas.aspx">Consultas</a></li>   
                 </ul>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <div class="Contenido">
+            <div class="auto-style1">
                 
-            </div>
-            <div id="footer">
-                <span>contacto@gmail.com</span>
-                <span> Whatsapp +503 5912 2103</span>
             </div>
             </div>
     </form>
