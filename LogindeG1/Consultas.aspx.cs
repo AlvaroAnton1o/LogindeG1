@@ -13,5 +13,11 @@ namespace LogindeG1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.SelectCommand = "SELECT Idusuario AS #, nombre AS Nombre, apellido AS Apellido, usuario AS Usuario, fecha AS Fecha, hora AS Hora, accion_a_realizar AS Acción_a_realizar, accion_realizada AS Acción_Realizada FROM bitacora WHERE usuario LIKE '%" + txtbuscar.Text +"%'";
+            SqlDataSource1.DataBind();
+        }
     }
 }

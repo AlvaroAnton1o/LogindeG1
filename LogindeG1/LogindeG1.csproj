@@ -43,7 +43,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3700465-business-calculating-calculator-finance-maths-technological_108748.ico" />
     <Content Include="Acerca de.aspx" />
     <Content Include="Ayuda.aspx" />
     <Content Include="Bitacora.aspx" />
@@ -83,6 +92,7 @@
     <Content Include="Recursos\Estilos\Style.css" />
     <Content Include="Recursos\imagenes\25d6158191522484e7773cdcd389e350.jpg" />
     <Content Include="Recursos\imagenes\BIENVENIDOS.png" />
+    <Content Include="Recursos\imagenes\drmetrics-img-destacada_web-analytics_.png" />
     <Content Include="Recursos\imagenes\pngtree-hand-drawn-math-education-calculator-ruler-background-image_340650.jpg" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
@@ -180,6 +190,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>3700465-business-calculating-calculator-finance-maths-technological_108748.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
