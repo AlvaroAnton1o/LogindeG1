@@ -87,6 +87,7 @@
     <Content Include="Login_G1.aspx" />
     <Content Include="Recursos\CSS\Estilos.css" />
     <Content Include="Recursos\CSS\Style.css" />
+    <Content Include="Recursos\CSS\Style4.css" />
     <Content Include="Recursos\CSS\styles2.css" />
     <Content Include="Recursos\CSS\Styles3.css" />
     <Content Include="Recursos\Estilos\Style.css" />

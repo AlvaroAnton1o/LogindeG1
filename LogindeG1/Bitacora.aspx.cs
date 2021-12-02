@@ -20,7 +20,7 @@ namespace LogindeG1
         DataSet ds = new DataSet();
         protected void Page_Load(object sender, EventArgs e)
         {
-            con.ConnectionString = "Data Source=DESKTOP-GLJR0B3\\MSSQLSERVER1;Initial Catalog=sistema;Integrated Security=True";
+            con.ConnectionString = "Data Source=LAPTOP-KB9GG2UT;Initial Catalog=sistema;Integrated Security=True";
             con.Open();
             if (!Page.IsPostBack)
             {

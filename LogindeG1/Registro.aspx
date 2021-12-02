@@ -11,6 +11,9 @@
     <title>Registrarse</title>
 </head>
 <body class="form-control bg-ligth">
+    <br />
+    <br />
+    <br />
   <div class="container small" >
       <div class="row">
           <h2 class="text-center">Formulario de Registro</h2>

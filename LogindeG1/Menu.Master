@@ -4,7 +4,7 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="Recursos/CSS/Styles2.css" rel="stylesheet" />
+    <link href="Recursos/CSS/Style4.css" rel="stylesheet" />
 
     <title>Menu Principal</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -24,25 +24,50 @@
 </head>
 <body>
     <form id="formulario_Master" runat="server">
-        <div>
-            <div id="navbar">
-                <ul class="nav navbar-nav navbar-center">
-                    <li><a href="Inicio.aspx">Inicio</a></li>
-                    <li><a href="Bitacora.aspx">Bitacora</a></li>
-                    <li><a href="Calculadora.aspx">Calculadora</a></li>
-                    <li><a href="ConversorP.aspx">Conversor de peso</a></li>
-                    <li><a href="ConversorM.aspx">Conversor de Monedas</a></li>
-                    <li><a href="Consultas.aspx">Consultas</a></li>
-                    <li><a href="Acerca de.aspx">Acerca de</a></li>
-                    <li><a href="Ayuda.aspx">Ayuda</a></li>
-                </ul>
-            </div>
+
+<div class="topnav" id="myTopnav">
+  <a href="Inicio.aspx" >Inicio</a>
+  
+  <a href="Bitacora.aspx">Bitacora</a>
+  
+  <a href="Calculadora.aspx">Calculadora</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Conversores<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="ConversorP.aspx">Conversor de Peso</a>
+      <a href="ConversorM.aspx">Conversor de Moneda</a>
+    </div>
+  </div> 
+  
+   <div class="dropdown">
+    <button class="dropbtn">Mas<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="Consultas.aspx">Consulta</a>
+      <a href="Acerca de.aspx">Acerca de</a>
+      <a href="Ayuda.aspx">Ayuda</a>
+    </div>
+  </div> 
+ 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-            <div class="auto-style1">
-                
-            </div>
-            </div>
+          
     </form>
 </body>
 </html>
