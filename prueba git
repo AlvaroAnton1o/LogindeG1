@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AlvaroAnton1o/LogindeG1/blob/master/prueba%20git\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#CONVERSOR DE AREA___________________________\n",
+        "#1___________________________\n",
+        "def pies2_metros2 ():\n",
+        "  pies2 = int(input(\"Ingrese la cantidad de pies cuadrados a convertir \"))\n",
+        "  metros2 = pies2 / 10.764\n",
+        "  print (pies2,\"Pies^2 equivalen a \",metros2,\"metros^2.\")\n",
+        "#2___________________________\n",
+        "def metros2_hectareas ():\n",
+        "  metros2 = int(input(\"Ingrese la cantidad de metros cuadrados a convertir \"))\n",
+        "  hectareas = metros2 / 10000\n",
+        "  print (metros2,\"metros^2 equivalen a \",hectareas,\"hectareas.\")\n",
+        "#3___________________________\n",
+        "def metros2_pies2 ():\n",
+        "  metros2 = int(input(\"Ingrese la cantidad de metros cuadrados a convertir \"))\n",
+        "  pies2 = metros2 * 10.764\n",
+        "  print (metros2,\"metros^2 equivalen a \",pies2,\"pies^2.\")\n",
+        "#4___________________________\n",
+        "def yardas2_pies2 ():\n",
+        "  yardas2 = int(input(\"Ingrese la cantidad de yardas cuadradas a convertir \"))\n",
+        "  pies2 = yardas2 * 9\n",
+        "  print (yardas2,\"yardas^2 equivalen a \",pies2,\"pies^2.\")\n",
+        "#5___________________________\n",
+        "def hectareas_yardas2 ():\n",
+        "  hectareas = int(input(\"Ingrese la cantidad de hectareas a convertir \"))\n",
+        "  yardas2 = hectareas * 11960\n",
+        "  print (hectareas,\"hectareas equivalen a \",yardas2,\"yardas^2.\")\n",
+        "#6___________________________\n",
+        "def manzanas_varas2 ():\n",
+        "  manzanas = int(input(\"Ingrese la cantidad de manzanas a convertir \"))\n",
+        "  varas2 = manzanas * 0.84\n",
+        "  print (manzanas,\"manzanas equivalen a \",varas2,\"varas^2.\")\n",
+        "#7___________________________\n",
+        "def tarea_metro2 ():\n",
+        "  tarea = int(input(\"Ingrese la cantidad de tareas a convertir \"))\n",
+        "  metro2 = tarea * 628.86\n",
+        "  print (tarea,\"tareas equivalen a \",metro2,\"metros^2.\")\n",
+        "#8___________________________\n",
+        "def metros2_varas2 ():\n",
+        "  metros2 = int(input(\"Ingrese la cantidad de metros cuadrados a convertir \"))\n",
+        "  varas2 = metros2 / 0.7\n",
+        "  print (metros2,\"metros2 equivalen a \",varas2,\"varas^2.\")\n",
+        "#9___________________________\n",
+        "def tarea_hectarea ():\n",
+        "  tarea = int(input(\"Ingrese la cantidad de tareas a convertir \"))\n",
+        "  hectareas = tarea * 0.06288\n",
+        "  print (tarea,\"tareas equivalen a \",hectareas,\"hectareas.\")\n",
+        "#10___________________________\n",
+        "def tarea_manzana ():\n",
+        "  tarea = int(input(\"Ingrese la cantidad de tareas a convertir \"))\n",
+        "  manzana= tarea * 0.06288\n",
+        "  print (tarea,\"tareas equivalen a \",manzana,\"manzanas.\")\n",
+        "\n",
+        "#MENU___________________________\n",
+        "opcion = int( input(\"\\n**MENU**\\n\\n\"\n",
+        "                    \"1. Pies^2 a Metros^2 \\n\"\n",
+        "                    \"2. Metros^2 a Hectareas \\n\"\n",
+        "                    \"3. Metros^2 a Pies^2 \\n\"\n",
+        "                    \"4. Yardas^2 a Pies^2 \\n\"\n",
+        "                    \"5. Hectareas a Yardas^2 \\n\"\n",
+        "                    \"6. Manzanas a Varas^2 \\n\"\n",
+        "                    \"7. Tareas a Metros^2 \\n\"\n",
+        "                    \"8. Metros^2 a Varas^2 \\n\"\n",
+        "                    \"9. Tareas a Hectareas \\n\"\n",
+        "                    \"10. Tareas a Manzanas \\n\"\n",
+        "                    \"Ingrese al opcion que desea \\n\\n\"))\n",
+        "#DICCIONARIO___________________________\n",
+        "Diccionario = {1:pies2_metros2,\n",
+        "               2:metros2_hectareas,\n",
+        "               3:metros2_pies2,\n",
+        "               4:yardas2_pies2,\n",
+        "               5:hectareas_yardas2,\n",
+        "               6:manzanas_varas2,\n",
+        "               7:tarea_metro2,\n",
+        "               8:metros2_varas2,\n",
+        "               9:tarea_hectarea,\n",
+        "               10:tarea_manzana}\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RWGLuF7GoZ6L",
+        "outputId": "0f1693ba-e259-45b9-8926-aff832708b64"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "\n",
+            "**MENU**\n",
+            "\n",
+            "1. Pies^2 a Metros^2 \n",
+            "2. Metros^2 a Hectareas \n",
+            "3. Metros^2 a Pies^2 \n",
+            "4. Yardas^2 a Pies^2 \n",
+            "5. Hectareas a Yardas^2 \n",
+            "6. Manzanas a Varas^2 \n",
+            "7. Tareas a Metros^2 \n",
+            "8. Metros^2 a Varas^2 \n",
+            "9. Tareas a Hectareas \n",
+            "10. Tareas a Manzanas \n",
+            "Ingrese al opcion que desea \n",
+            "\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
